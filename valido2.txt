@@ -1,0 +1,13 @@
+variable nombre = "ANTLR4";
+variable invertido = invertir(nombre);
+variable largo = longitud(nombre);
+imprimir(invertido);
+imprimir(largo);
+
+funcion saludar(persona) {
+    variable resultado = mayusculas(persona);
+    imprimir(resultado);
+    devolver resultado;
+}
+
+saludar("mundo");
