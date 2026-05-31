@@ -1,0 +1,3 @@
+variable x = "texto";
+funcion prueba(a) {
+    imprimir(a);

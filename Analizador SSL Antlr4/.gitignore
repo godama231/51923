@@ -1,0 +1,6 @@
+# No subir node_modules (se regenera con npm install)
+# node_modules/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db

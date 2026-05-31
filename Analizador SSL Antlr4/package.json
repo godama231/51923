@@ -1,0 +1,14 @@
+{
+  "name": "analizador-lenguaje",
+  "version": "1.0.0",
+  "description": "Analizador sintáctico con ANTLR4 y JavaScript — SSL UTN FRM — Tema 25914_11",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "generar": "java -jar antlr-4.9.3-complete.jar -Dlanguage=JavaScript -visitor -listener -o generated Lenguaje.g4"
+  },
+  "dependencies": {
+    "antlr4": "^4.11.0"
+  }
+}
